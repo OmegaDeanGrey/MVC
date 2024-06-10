@@ -136,3 +136,4 @@
 /Users/deangrey/Desktop/Liberation/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/deangrey/Desktop/Liberation/obj/Debug/net8.0/Liberation.csproj.AssemblyReference.cache
 /Users/deangrey/Desktop/Liberation/obj/Debug/net8.0/Liberation.csproj.Up2Date
+/Users/deangrey/Desktop/Liberation/obj/Debug/net8.0/Liberation.sourcelink.json
