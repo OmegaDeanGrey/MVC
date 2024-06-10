@@ -26,18 +26,18 @@
 </head>
 <body style="background-image: url('/assets/office3.png')">
     <div class="text-center">
-        <h1 class="display-4">Welcome</h1>
+        <h1 class="display-4">WELCOME</h1>
         <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-        <span style="space-evenly">
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        <span>
+        <button  id="WelcomeButtons" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
             Tech Stack
         </button>
 
-                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal2">
+                <button  id="WelcomeButtons2" class="btn btn-success" data-toggle="modal" data-target="#exampleModal2">
             Project Overview
         </button>
 
-                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal3">
+                <button  id="WelcomeButtons3" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal3">
             Future Plans
         </button>
         </span>
@@ -87,17 +87,16 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Overview</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    This is the body of the modal.
+                    This project is an attempt to utilize the technologies that the interview pointed toward desired proficieny including MVC architecture.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-success">Save changes</button>
                 </div>
             </div>
         </div>
@@ -107,13 +106,13 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Next Steps</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    This is the body of the modal.
+                    The next step will be to integrate Axios.  Please check out the Notes section to see CRUD functionality in action.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
