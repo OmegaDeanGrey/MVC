@@ -2,8 +2,8 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 .navbar {
-  height: 10%;
-  background-color: rgba(77, 141, 244, 0.7);
+  height: 40%;
+  background-color: rgba(180, 205, 242, 0.7);
 }
 
 a.navbar-brand {
@@ -16,7 +16,7 @@ a {
   color: #e6eaed;
 }
 
-.btn-primary {
+/* .btn-primary {
   color: #e7c3c3;
   background-color: #1b6ec2;
   border-color: #1861ac;
@@ -27,7 +27,7 @@ a {
   color: #e6d6d6;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
+} */
 
 .border-top {
   border-top: 1px solid #e5e5e5;
@@ -52,4 +52,8 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
   background-color: rgb(214, 211, 207);
+}
+
+.header {
+  min-height: 20%;
 }

@@ -1,6 +1,6 @@
-html {
+/* html {
   font-size: 14px;
-}
+} */
 
 @media (min-width: 768px) {
   html {
@@ -35,4 +35,49 @@ body {
   top: 0;
   bottom: 0;
   z-index: -1;
+}
+
+#NoteButton {
+  margin-top: 40%;
+  border-radius: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(152, 152, 244);
+  background-color: aliceblue;
+  size: 100px;
+}
+
+#VANButton {
+  margin-top: 40%;
+  border-radius: 30px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(158, 158, 240);
+  background-color: aliceblue;
+  size: 100px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+#crudite {
+  font-size: 60px;
+  color: rgb(204, 206, 246);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 50px;
+  margin-top: 200px;
+}
+
+#frontwords {
+  font-size: 130px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#subtext {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
 }

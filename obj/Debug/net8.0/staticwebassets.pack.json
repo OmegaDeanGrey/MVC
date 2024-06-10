@@ -13,20 +13,36 @@
       "PackagePath": "staticwebassets/assets/Kingda.mp4"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/LogoD.png",
-      "PackagePath": "staticwebassets/assets/LogoD.png"
-    },
-    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Model.jpg",
       "PackagePath": "staticwebassets/assets/Model.jpg"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Pokexamp2.png",
-      "PackagePath": "staticwebassets/assets/Pokexamp2.png"
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes2.png",
+      "PackagePath": "staticwebassets/assets/Notes2.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes3.png",
+      "PackagePath": "staticwebassets/assets/Notes3.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/NotesPad.png",
+      "PackagePath": "staticwebassets/assets/NotesPad.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
       "PackagePath": "staticwebassets/assets/View.jpg"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office.png",
+      "PackagePath": "staticwebassets/assets/office.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office2.png",
+      "PackagePath": "staticwebassets/assets/office2.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office3.png",
+      "PackagePath": "staticwebassets/assets/office3.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",

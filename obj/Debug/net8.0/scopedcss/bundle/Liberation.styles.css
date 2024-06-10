@@ -3,8 +3,8 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 .navbar[b-eoqsin39st] {
-  height: 10%;
-  background-color: rgba(77, 141, 244, 0.7);
+  height: 40%;
+  background-color: rgba(180, 205, 242, 0.7);
 }
 
 a.navbar-brand[b-eoqsin39st] {
@@ -17,18 +17,18 @@ a[b-eoqsin39st] {
   color: #e6eaed;
 }
 
-.btn-primary[b-eoqsin39st] {
+/* .btn-primary {
   color: #e7c3c3;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active[b-eoqsin39st],
-.nav-pills .show > .nav-link[b-eoqsin39st] {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #e6d6d6;
   background-color: #1b6ec2;
   border-color: #1861ac;
-}
+} */
 
 .border-top[b-eoqsin39st] {
   border-top: 1px solid #e5e5e5;
@@ -52,5 +52,9 @@ button.accept-policy[b-eoqsin39st] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  background-color: rgb(79, 100, 192);
+  background-color: rgb(214, 211, 207);
+}
+
+.header[b-eoqsin39st] {
+  min-height: 20%;
 }
