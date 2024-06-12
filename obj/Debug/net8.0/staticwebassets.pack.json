@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets/assets/Model.jpg"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes2.png",
-      "PackagePath": "staticwebassets/assets/Notes2.png"
-    },
-    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes3.png",
       "PackagePath": "staticwebassets/assets/Notes3.png"
     },
@@ -33,6 +29,14 @@
       "PackagePath": "staticwebassets/assets/View.jpg"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/chalkboard.png",
+      "PackagePath": "staticwebassets/assets/chalkboard.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/desk.png",
+      "PackagePath": "staticwebassets/assets/desk.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office.png",
       "PackagePath": "staticwebassets/assets/office.png"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office3.png",
       "PackagePath": "staticwebassets/assets/office3.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/openbook.png",
+      "PackagePath": "staticwebassets/assets/openbook.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",

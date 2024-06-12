@@ -3,7 +3,7 @@ using Liberation.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Services
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<LiberationDbContext>(options =>
@@ -11,11 +11,10 @@ builder.Services.AddDbContext<LiberationDbContext>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//Configure Pipeline
 if (!app.Environment.IsDevelopment())
 {
     _ = app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     _ = app.UseHsts();
 }
 
@@ -26,7 +25,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-
+//Routing to the Views from the Controller Actions
     app.UseEndpoints(endpoints =>
     {
         _ = endpoints.MapControllerRoute(

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BQhKS1/Wv6DHxo8YY5DsVhAP47heQ6l6t3MmGGXcx04=",
+  "Hash": "MRarjBRzoQOtOmneolLhIL5yTsf6CjPMimdARFZgf4Y=",
   "Source": "Liberation",
   "BasePath": "_content/Liberation",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "/Users/deangrey/Desktop/Liberation/obj/Debug/net8.0/scopedcss/projectbundle/Liberation.bundle.scp.css"
     },
     {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/chalkboard.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/chalkboard.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/chalkboard.png"
+    },
+    {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Controller.jpg",
       "SourceId": "Liberation",
       "SourceType": "Discovered",
@@ -72,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/Controller.jpg"
+    },
+    {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/desk.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/desk.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/desk.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Kingda.mp4",
@@ -110,25 +148,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/Model.jpg"
-    },
-    {
-      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes2.png",
-      "SourceId": "Liberation",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
-      "BasePath": "_content/Liberation",
-      "RelativePath": "assets/Notes2.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/Notes2.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes3.png",
@@ -224,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/office3.png"
+    },
+    {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/openbook.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/openbook.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/openbook.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",

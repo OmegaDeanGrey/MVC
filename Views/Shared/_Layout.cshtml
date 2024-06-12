@@ -10,24 +10,19 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-            
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Liberation">Liberation</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="navbar-brand">
-                            <a class="navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="navbar-brand">
-                            <a class="navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Notes">Notes</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar" id="tall-navbar">
+            <div id="navy">
+            <ul>
+                <li class="navbar-brand">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Liberation">Liberation</a>
+                </li>
+                <li class="navbar-brand">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="navbar-brand">
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Notes">Notes</a>
+                </li>
+            </ul>
             </div>
         </nav>
     </header>
@@ -38,9 +33,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-light text-bolder">
         <div class="container">
-            &copy; 2024 - Liberation - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 - Liberation
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

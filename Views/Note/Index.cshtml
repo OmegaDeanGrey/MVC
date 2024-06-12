@@ -3,11 +3,11 @@
 @{
     ViewData["Title"] = "Notes";
 }
-<body style="background-image: url('/assets/Notes3.png')">
-<h1>Notes</h1>
+<body style="background-image: url('/assets/chalkboard.png')">
+<h1 id="notetitle">NOTEBOOK</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-primary">Create New</a>
+    <a asp-action="Create" class="btn btn-light">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -25,7 +25,7 @@
         @foreach (var item in Model)
         {
             <tr>
-                <td>
+                <td id="titlewords">
                     @Html.DisplayFor(modelItem => item.Title)
                 </td>
                 <td>
@@ -41,4 +41,5 @@
         }
     </tbody>
 </table>
+
 </body>

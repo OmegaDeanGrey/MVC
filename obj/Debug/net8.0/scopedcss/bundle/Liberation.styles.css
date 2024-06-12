@@ -3,32 +3,24 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 .navbar[b-eoqsin39st] {
-  height: 40%;
-  background-color: rgba(180, 205, 242, 0.7);
+  background-color: rgba(18, 20, 24, 0.75);
+}
+
+#tall-navbar[b-eoqsin39st] {
+  height: 80px;
+  margin-bottom: 50px;
 }
 
 a.navbar-brand[b-eoqsin39st] {
-  white-space: normal;
+  /* white-space: normal;
   text-align: center;
-  word-break: break-all;
+  word-break: break-all; */
+  color: aliceblue;
 }
 
-a[b-eoqsin39st] {
-  color: #e6eaed;
+a.navbar-brand:hover[b-eoqsin39st] {
+  color: rgb(213, 157, 157);
 }
-
-/* .btn-primary {
-  color: #e7c3c3;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  color: #e6d6d6;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-} */
 
 .border-top[b-eoqsin39st] {
   border-top: 1px solid #e5e5e5;
@@ -41,10 +33,10 @@ a[b-eoqsin39st] {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
-button.accept-policy[b-eoqsin39st] {
+/* button.accept-policy {
   font-size: 1rem;
   line-height: inherit;
-}
+} */
 
 .footer[b-eoqsin39st] {
   position: absolute;
@@ -52,9 +44,27 @@ button.accept-policy[b-eoqsin39st] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  background-color: rgb(214, 211, 207);
+  background-color: rgba(7, 9, 11, 0.75);
 }
 
 .header[b-eoqsin39st] {
   min-height: 20%;
+}
+
+#navy[b-eoqsin39st] {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navy ul[b-eoqsin39st] {
+  list-style: none;
+}
+
+#navy li[b-eoqsin39st] {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar-brand[b-eoqsin39st] {
+  color: #fff !important;
 }

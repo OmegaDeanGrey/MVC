@@ -15,7 +15,7 @@
 <body style="background-image: url('/assets/NotesPad.png')">       
    <div class="hero-section">
         <div class="hero-content text-center">
-            <h1 class="display-4" id="crudite">Create New Notes</h1>
+            <h1 class="display-4" id="crudite">NOTEBOOK</h1>
             <p class="lead" id="subtext">Explore MVC CRUD Functionality</p>
     </div>
 
@@ -25,23 +25,21 @@
 <span id="buttons">
     <div>
       
-        <button>
-            <a
+        <button class="btn btn-muted">
+            <a 
             id="NoteButton"
             asp-area="" asp-controller="Note" asp-action="Create">
 
             Create Note</a>
         </button>
         
-    </div>
-        <div>
-      
-        <button>
-            <a 
-            id="VANButton"
-            asp-area="" asp-controller="Note" asp-action="Index">
 
-            View All Notes</a>
+      
+        <button class="btn btn-muted">
+            <a
+            id="VANButton"
+             asp-area="" asp-controller="Note" asp-action="Index">
+            Your NoteBook</a>
         </button>
         </span>
    
