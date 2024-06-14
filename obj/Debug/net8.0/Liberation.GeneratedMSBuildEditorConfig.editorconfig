@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/deangrey/Desktop/Liberation
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/deangrey/Desktop/Liberation/Views/Bootcamp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vdGNhbXAvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Home/BootCamp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Cb290Q2FtcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/deangrey/Desktop/Liberation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

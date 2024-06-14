@@ -25,18 +25,6 @@ body {
   margin-bottom: 60px;
 }
 
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
 #NoteButton {
   margin-top: 30%;
   border-radius: 20px;
@@ -86,6 +74,7 @@ body {
 #WelcomeButtons {
   font-size: 45px;
   text-shadow: 4px 4px 4px darkblue;
+  border-radius: 30px;
 }
 
 #WelcomeButtons2 {
@@ -137,9 +126,10 @@ td {
   font-weight: bolder;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 70px;
-  text-shadow: 3px 2px 2px rgb(190, 190, 190);
+  text-shadow: 3px 3px 3px rgb(134, 121, 121);
 }
 
 #titlewords {
-  color: rgb(185, 248, 229);
+  color: rgb(237, 246, 246);
+  font-family: "Times New Roman", Times, serif;
 }

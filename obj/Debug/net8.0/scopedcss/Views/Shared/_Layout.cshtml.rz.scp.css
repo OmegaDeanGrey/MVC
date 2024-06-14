@@ -6,15 +6,14 @@ for details on configuring this project to bundle and minify static web assets. 
 }
 
 #tall-navbar[b-eoqsin39st] {
-  height: 80px;
+  height: 82px;
   margin-bottom: 50px;
+  font-size: 27px;
+  color: rgb(120, 130, 238);
 }
 
 a.navbar-brand[b-eoqsin39st] {
-  /* white-space: normal;
-  text-align: center;
-  word-break: break-all; */
-  color: aliceblue;
+  color: rgb(120, 130, 238);
 }
 
 a.navbar-brand:hover[b-eoqsin39st] {
@@ -32,18 +31,13 @@ a.navbar-brand:hover[b-eoqsin39st] {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
 }
 
-/* button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-} */
-
 .footer[b-eoqsin39st] {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
-  background-color: rgba(7, 9, 11, 0.75);
+  background-color: rgba(35, 51, 67, 0.75);
 }
 
 .header[b-eoqsin39st] {
