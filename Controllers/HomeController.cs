@@ -28,6 +28,11 @@ public class HomeController : Controller
         return View(); // Returns the "Liberation" view
     }
 
+       public IActionResult Auth()
+    {
+        return View(); // Returns the "Liberation" view
+    }
+
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

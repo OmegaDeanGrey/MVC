@@ -1,0 +1,46 @@
+@model Liberation.Models.LoginModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body        style="background-image: url('/assets/OldMac.png')" id="bodylog" >
+    <div
+ 
+        id="BGDiv"
+        style="background-color: black">
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+    <div id="LoginForm">
+    <div class="form-group">
+        <label asp-for="Username"></label>
+        <input asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div class="form-group form-check">
+        <input asp-for="RememberMe" class="form-check-input" />
+        <label asp-for="RememberMe" class="form-check-label"></label>
+    </div>
+    </div>
+            <button id="LoginSubmitButton">
+            <a asp-area="" asp-controller="Auth" asp-action="Proof">
+            Submit</a>
+        </button>
+</form>
+    </div>
+</body>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

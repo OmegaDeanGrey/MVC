@@ -16,6 +16,10 @@ html {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
+.form-group {
+  margin-left: 12px;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -59,6 +63,19 @@ body {
   text-shadow: 2px 2px 2px black;
 }
 
+#crudite2 {
+  font-size: 40px;
+  color: rgb(204, 206, 246);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 50px;
+  text-shadow: 2px 2px 2px black;
+  width: 160px;
+}
+
+#cruditetitle {
+  margin-left: 234px;
+}
+
 #frontwords {
   font-size: 130px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -80,11 +97,13 @@ body {
 #WelcomeButtons2 {
   font-size: 45px;
   text-shadow: 4px 4px 4px rgb(36, 89, 69);
+  border-radius: 30px;
 }
 
 #WelcomeButtons3 {
   font-size: 45px;
   text-shadow: 4px 4px 4px rgb(113, 10, 10);
+  border-radius: 30px;
 }
 
 #WelcomeButtonSpan {
@@ -132,4 +151,105 @@ td {
 #titlewords {
   color: rgb(237, 246, 246);
   font-family: "Times New Roman", Times, serif;
+}
+
+#LogButton {
+  margin-top: 30%;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(194, 194, 249);
+  border: 3px rgb(252, 252, 252) double;
+  padding: 18px;
+}
+
+#TestButton {
+  margin-top: 30%;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(194, 194, 249);
+  border: 3px rgb(252, 252, 252) double;
+  padding: 18px;
+}
+
+#RegisterButton {
+  margin-top: 30%;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(216, 216, 245);
+  border: 3px rgb(158, 149, 149) double;
+  padding: 18px;
+}
+
+#ExplainButton {
+  margin-top: 30%;
+  border-radius: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(216, 216, 245);
+  border: 3px rgb(158, 149, 149) double;
+  padding: 18px;
+}
+
+#LoginSubmitButton {
+  background-color: rgb(201, 146, 35);
+  margin-top: 14px;
+  border-radius: 20px;
+  font-size: 27px;
+  font-weight: bolder;
+  color: rgb(216, 216, 245);
+  border: 3px rgb(247, 247, 250) double;
+  padding: 5px;
+  text-decoration: none;
+}
+
+input {
+  width: 40%;
+  padding: 12px;
+  margin: 10px;
+  /* box-sizing: border-box; */
+}
+
+#BGDiv {
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  border-radius: 25px;
+  color: rgb(209, 144, 23);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 6px goldenrod double;
+}
+
+#bodylog {
+  background-repeat: repeat;
+}
+
+#reglog {
+  padding: 20px;
+  background-color: rgba(20, 19, 19, 0.8) 0 255 0.8;
+  color: rgb(228, 240, 250);
+  text-shadow: 3px 3px 3px rgb(28, 63, 106);
+  font-weight: bolder;
+}
+
+#regbutton {
+  background-color: blanchedalmond;
+  color: black;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#regtitle {
+  color: blanchedalmond;
+  font-size: 38px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 3px rgb(28, 63, 106);
 }

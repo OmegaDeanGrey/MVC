@@ -1,0 +1,50 @@
+
+
+@{
+    ViewData["Title"] = "Portal to Authorization Page";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body style="background-image: url('/assets/security.png')">       
+   <div class="hero-section">
+        <div class="hero-content text-center">
+            <h1 class="display-4" id="crudite">VIP ONLY</h1>
+            <p class="lead" id="subtext">Here We Explore Auth</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<span id="buttons">
+    <div>
+        <button class="btn btn-muted">
+            <a 
+            id="LogButton"
+            asp-area="" asp-controller="Auth" asp-action="Login">
+            Log In</a>
+        </button>
+        
+        <button class="btn btn-muted">
+            <a
+            id="RegisterButton"
+             asp-area="" asp-controller="Auth" asp-action="Register">
+            Register</a>
+        </button>
+
+        <button class="btn btn-muted">
+            <a
+            id="ExplainButton"
+             asp-area="" asp-controller="Auth" asp-action="Explain">
+            Auth Explained</a>
+        </button>
+    </div>
+        </span> 
+</body>
+</html>

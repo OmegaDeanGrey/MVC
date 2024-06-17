@@ -16,7 +16,7 @@ namespace Liberation.Controllers
         // GET: Note/Index
         public async Task<IActionResult> Index()
         {
-            var notey = await _context.Note.ToListAsync();
+            var notey = await _context.Notes.ToListAsync();
             return View(notey);
         }
 
@@ -51,7 +51,7 @@ namespace Liberation.Controllers
                 return NotFound();
             }
 
-            var noteModel = await _context.Note.FindAsync(id);
+            var noteModel = await _context.Notes.FindAsync(id);
             if (noteModel == null)
             {
                 return NotFound();
@@ -100,15 +100,15 @@ namespace Liberation.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var noteModel = await _context.Note.FindAsync(id);
-            _context.Note.Remove(noteModel);
+            var noteModel = await _context.Notes.FindAsync(id);
+            _context.Notes.Remove(noteModel);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool NoteModelExists(int id)
         {
-            return _context.Note.Any(e => e.Id == id);
+            return _context.Notes.Any(e => e.Id == id);
         }
     }
 }

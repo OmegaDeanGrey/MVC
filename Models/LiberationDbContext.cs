@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Liberation.Models
@@ -8,6 +9,7 @@ namespace Liberation.Models
             : base(options)
         {
         }
-        public DbSet<NoteModel> Note { get; set; }
+
+        public DbSet<NoteModel> Notes { get; set; }
     }
 }

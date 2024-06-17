@@ -1,12 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
+build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnforceExtendedAnalyzerRules = 
 build_property.RootNamespace = Liberation
 build_property.RootNamespace = Liberation
 build_property.ProjectDir = /Users/deangrey/Desktop/Liberation/
@@ -18,12 +25,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/deangrey/Desktop/Liberation
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/deangrey/Desktop/Liberation/Views/Bootcamp/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9vdGNhbXAvSW5kZXguY3NodG1s
+[/Users/deangrey/Desktop/Liberation/Views/Auth/Explain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9FeHBsYWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/deangrey/Desktop/Liberation/Views/Home/BootCamp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Cb290Q2FtcC5jc2h0bWw=
+[/Users/deangrey/Desktop/Liberation/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Auth/Proof.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9Qcm9vZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Home/API.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BUEkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Home/Auth.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BdXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/deangrey/Desktop/Liberation/Views/Home/Index.cshtml]

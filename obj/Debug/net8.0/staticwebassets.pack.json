@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/assets/NotesPad.png"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/OldMac.png",
+      "PackagePath": "staticwebassets/assets/OldMac.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
       "PackagePath": "staticwebassets/assets/View.jpg"
     },
@@ -35,6 +39,10 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/desk.png",
       "PackagePath": "staticwebassets/assets/desk.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/greyformbg.png",
+      "PackagePath": "staticwebassets/assets/greyformbg.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office.png",
@@ -51,6 +59,10 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/openbook.png",
       "PackagePath": "staticwebassets/assets/openbook.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/security.png",
+      "PackagePath": "staticwebassets/assets/security.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",
