@@ -25,12 +25,17 @@ public class HomeController : Controller
 
     public IActionResult Liberation()
     {
-        return View(); // Returns the "Liberation" view
+        return View(); 
     }
 
        public IActionResult Auth()
     {
-        return View(); // Returns the "Liberation" view
+        return View(); 
+    }
+
+           public IActionResult API()
+    {
+        return View();
     }
 
 

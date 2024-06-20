@@ -253,3 +253,26 @@ input {
   font-weight: bolder;
   text-shadow: 3px 3px 3px rgb(28, 63, 106);
 }
+
+#pokemonlist {
+  color: white;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 3px 3px 3px black;
+}
+
+#GAPTitle {
+  text-shadow: 4px 4px 4px rgb(120, 137, 213);
+}
+
+#GPBITitle {
+  text-shadow: 4px 4px 4px rgb(120, 137, 213);
+  margin-top: 80px;
+}
+
+#PokemonListButton {
+  background-color: bisque;
+  color: black;
+  border-radius: 25px;
+  font-size: 40px;
+}

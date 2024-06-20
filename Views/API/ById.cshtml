@@ -1,0 +1,31 @@
+@model Liberation.Models.PokemonDetail
+
+@{
+    ViewData["Title"] = "Pokémon Details";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body style="background-image: url('/assets/IChooseYou.png')">  
+<h1
+  style="text-shadow: 3px 3px 3px rgb(246, 245, 245)">Pokémon Details</h1>
+
+@if (Model != null)
+{
+    <h2
+    style="text-shadow: 3px 3px 3px rgb(248, 246, 246)"
+    >I Choose You: @Model.Name.ToUpper()</h2>
+    <!-- Display other details as needed -->
+}
+else
+{
+    <p>Pokémon details not found.</p>
+}
+</body>
+</html>

@@ -126,6 +126,21 @@ app.UseEndpoints(endpoints =>
         name: "auth_proof",
         pattern: "Auth/Proof",
         defaults: new { controller = "Auth", action = "Proof" });
+
+    _ = endpoints.MapControllerRoute(
+        name: "home_API",
+        pattern: "Home/API",
+        defaults: new { controller = "Home", action = "API" });
+
+    _ = endpoints.MapControllerRoute(
+        name: "API_Index",
+        pattern: "API/Index",
+        defaults: new { controller = "API", action = "Index" });
+
+    _ = endpoints.MapControllerRoute(
+        name: "API_ById",
+        pattern: "API/ById",
+        defaults: new { controller = "API", action = "ById" });
 });
 
 app.Run();

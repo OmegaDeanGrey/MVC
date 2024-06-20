@@ -1,45 +1,47 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 
-public interface IMyApiService
+namespace Liberation.Models
 {
-    Task<MyApiResponse> GetApiDataAsync();
-    Task<bool> CreateDataAsync(MyApiRequest request);
-}
-
-public class MyApiService : IMyApiService
-{
-    private readonly HttpClient _httpClient;
-
-    public MyApiService(HttpClient httpClient)
+    public interface IMyApiService
     {
-        _httpClient = httpClient;
+        Task<PokemonApiResponse> GetApiDataAsync();
     }
 
-    public async Task<MyApiResponse> GetApiDataAsync()
+    public class MyApiService : IMyApiService
     {
-        var response = await _httpClient.GetAsync("https://api.example.com/data");
-        response.EnsureSuccessStatusCode();
+        private readonly HttpClient _httpClient;
 
-        var responseContent = await response.Content.ReadAsStringAsync();
-        return JsonConvert.DeserializeObject<MyApiResponse>(responseContent);
+        public MyApiService(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+        }
+
+        public async Task<PokemonApiResponse> GetApiDataAsync()
+        {
+            var response = await _httpClient.GetAsync("https://pokeapi.co/api/v2/pokemon?limit=25"); // Limiting to 100 Pokémon for example
+            response.EnsureSuccessStatusCode();
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+            var apiResponse = JsonConvert.DeserializeObject<PokemonApiResponse>(responseContent);
+
+            return apiResponse;
+        }
     }
 
-    public async Task<bool> CreateDataAsync(MyApiRequest request)
+    public class PokemonApiResponse
     {
-        var content = new StringContent(JsonConvert.SerializeObject(request), System.Text.Encoding.UTF8, "application/json");
-        var response = await _httpClient.PostAsync("https://api.example.com/data", content);
-        return response.IsSuccessStatusCode;
+        public int Count { get; set; }
+        public string Next { get; set; }
+        public string Previous { get; set; }
+        public List<PokemonResult> Results { get; set; }
     }
-}
 
-public class MyApiResponse
-{
-    public string Data { get; set; }
-}
-
-public class MyApiRequest
-{
-    public string Data { get; set; }
+    public class PokemonResult
+    {
+        public string Name { get; set; }
+        public string Url { get; set; }
+    }
 }

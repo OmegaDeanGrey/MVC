@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets/assets/Controller.jpg"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/IChooseYou.png",
+      "PackagePath": "staticwebassets/assets/IChooseYou.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Kingda.mp4",
       "PackagePath": "staticwebassets/assets/Kingda.mp4"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/LucaBg.png",
+      "PackagePath": "staticwebassets/assets/LucaBg.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Model.jpg",
@@ -27,6 +35,18 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/OldMac.png",
       "PackagePath": "staticwebassets/assets/OldMac.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PikaBG.png",
+      "PackagePath": "staticwebassets/assets/PikaBG.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PikaBG2.png",
+      "PackagePath": "staticwebassets/assets/PikaBG2.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PokeBG.png",
+      "PackagePath": "staticwebassets/assets/PokeBG.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
