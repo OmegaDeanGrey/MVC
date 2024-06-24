@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/assets/PokeBG.png"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/TS.png",
+      "PackagePath": "staticwebassets/assets/TS.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
       "PackagePath": "staticwebassets/assets/View.jpg"
     },

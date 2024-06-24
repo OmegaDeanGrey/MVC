@@ -3,13 +3,21 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .navbar {
   background-color: rgba(18, 20, 24, 0.75);
+  display: flex;
+  justify-content: start;
 }
 
-#tall-navbar {
-  height: 82px;
-  margin-bottom: 50px;
-  font-size: 27px;
-  color: rgb(120, 130, 238);
+.navbar-brand {
+  color: rgb(233, 232, 232);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-shadow: 4px 4px 4px rgb(112, 119, 148);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: #fff !important;
 }
 
 a.navbar-brand {
@@ -44,11 +52,6 @@ a.navbar-brand:hover {
   min-height: 20%;
 }
 
-#navy {
-  display: flex;
-  justify-content: space-between;
-}
-
 #navy ul {
   list-style: none;
 }
@@ -56,8 +59,4 @@ a.navbar-brand:hover {
 #navy li {
   display: inline-block;
   margin-right: 20px;
-}
-
-.navbar-brand {
-  color: #fff !important;
 }

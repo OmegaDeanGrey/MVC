@@ -3,11 +3,15 @@
 @{
     ViewData["Title"] = "Notes";
 }
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
 <body style="background-image: url('/assets/chalkboard.png')">
 <h1 id="notetitle">NOTEBOOK</h1>
 
 <p>
-    <a asp-action="Create" class="btn btn-light">Create New</a>
+    <a asp-action="Create" id="crudon">Create New</a>
 </p>
 <table class="table">
     <thead>

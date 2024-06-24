@@ -7,7 +7,7 @@ namespace Liberation.Models
 {
     public interface IMyApiService
     {
-        Task<PokemonApiResponse> GetApiDataAsync();
+        Task<PokemonApiResponse> GetApiDataAsync(string url = "https://pokeapi.co/api/v2/pokemon?limit=25");
     }
 
     public class MyApiService : IMyApiService
@@ -19,9 +19,9 @@ namespace Liberation.Models
             _httpClient = httpClient;
         }
 
-        public async Task<PokemonApiResponse> GetApiDataAsync()
+        public async Task<PokemonApiResponse> GetApiDataAsync(string url = "https://pokeapi.co/api/v2/pokemon?limit=25")
         {
-            var response = await _httpClient.GetAsync("https://pokeapi.co/api/v2/pokemon?limit=25"); // Limiting to 100 Pokémon for example
+            var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
 
             var responseContent = await response.Content.ReadAsStringAsync();

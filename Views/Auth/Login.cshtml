@@ -33,9 +33,10 @@
         <label asp-for="RememberMe" class="form-check-label"></label>
     </div>
     </div>
-            <button id="LoginSubmitButton">
-            <a asp-area="" asp-controller="Auth" asp-action="Proof">
-            Submit</a>
+            <button type="submit"
+            id="LoginSubmitButton"
+            asp-area="" asp-controller="Auth" asp-action="Proof">
+            Submit
         </button>
 </form>
     </div>

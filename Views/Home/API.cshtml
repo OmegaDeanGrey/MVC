@@ -6,25 +6,35 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <style>
+            #pokemonId {
+  width: 210px;
+}
+        </style>
 </head>
 <body        style="background-image: url('/assets/LucaBg.png')" id="bodyAPI" >
-
+<div
+id="APImain">
 <h1 id="GAPTitle">Get a List of All Pokemon</h1>
     <button id="PokemonListButton">
             <a
              asp-area="" asp-controller="API" asp-action="Index">
-            Show</a>
+            RETRIEVE</a>
         </button>
  <h2 id="GPBITitle">Search for a Pokémon by ID</h2>
 
 <form asp-area="" asp-controller="API" asp-action="ById" method="post">
     <div>
-        <label for="pokemonId">Enter Pokemon ID:</label>
-        <input type="number" id="pokemonId" name="id" required />
+        <label for="pokemonId"
+        id="GPBIlabel">Pokemon ID:</label>
+        <input type="number" id="pokemonId" name="id" placeholder="Enter 1 through 1025" min="1" max="1025" required 
+            oninvalid="this.setCustomValidity('Please enter a value between 1 and 1025')"
+            oninput="this.setCustomValidity('')"/>
         <button 
         id="GPBISearchButton"
-        type="submit">Search</button>
+        type="submit">CHOOSE</button>
     </div>
 </form>
+</div>
 </body>
 </html>

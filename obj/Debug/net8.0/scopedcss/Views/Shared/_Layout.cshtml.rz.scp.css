@@ -3,13 +3,21 @@ for details on configuring this project to bundle and minify static web assets. 
 
 .navbar[b-eoqsin39st] {
   background-color: rgba(18, 20, 24, 0.75);
+  display: flex;
+  justify-content: start;
 }
 
-#tall-navbar[b-eoqsin39st] {
-  height: 82px;
-  margin-bottom: 50px;
-  font-size: 27px;
-  color: rgb(120, 130, 238);
+.navbar-brand[b-eoqsin39st] {
+  color: rgb(233, 232, 232);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-shadow: 4px 4px 4px rgb(112, 119, 148);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar-brand[b-eoqsin39st] {
+  color: #fff !important;
 }
 
 a.navbar-brand[b-eoqsin39st] {
@@ -44,11 +52,6 @@ a.navbar-brand:hover[b-eoqsin39st] {
   min-height: 20%;
 }
 
-#navy[b-eoqsin39st] {
-  display: flex;
-  justify-content: space-between;
-}
-
 #navy ul[b-eoqsin39st] {
   list-style: none;
 }
@@ -56,8 +59,4 @@ a.navbar-brand:hover[b-eoqsin39st] {
 #navy li[b-eoqsin39st] {
   display: inline-block;
   margin-right: 20px;
-}
-
-.navbar-brand[b-eoqsin39st] {
-  color: #fff !important;
 }

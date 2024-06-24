@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
-<body style="background-image: url('/assets/PikaBG2.png')">  
+
+<body style="background-image: url('/assets/PikaBG2.png')" id="pikabg">
+
 <h1
-style="color: white">Pokémon List</h1>
+id="GAPListTitle">Pokémon List</h1>
 
 <ul>
     @foreach (var pokemon in Model.Results)
@@ -20,5 +22,9 @@ style="color: white">Pokémon List</h1>
         >@pokemon.Name</li>
     }
 </ul>
+
+
+
+
 </body>
 </html>

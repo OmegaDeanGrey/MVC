@@ -118,11 +118,6 @@ app.UseEndpoints(endpoints =>
         defaults: new { controller = "Auth", action = "Register" });
 
     _ = endpoints.MapControllerRoute(
-        name: "auth_explain",
-        pattern: "Auth/Explain",
-        defaults: new { controller = "Auth", action = "Explain" });
-
-    _ = endpoints.MapControllerRoute(
         name: "auth_proof",
         pattern: "Auth/Proof",
         defaults: new { controller = "Auth", action = "Proof" });

@@ -1,3 +1,4 @@
+
 @model Liberation.Models.PokemonDetail
 
 @{
@@ -11,21 +12,60 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-</head>
-<body style="background-image: url('/assets/IChooseYou.png')">  
-<h1
-  style="text-shadow: 3px 3px 3px rgb(246, 245, 245)">Pokémon Details</h1>
+       @* <style>
+        <text>
+        .fade-in-text {
+            opacity: 0;
+            animation: fadeIn1 3s forwards;
+        }
 
+        @keyframes fadeIn1 {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fade-in-text2 {
+            opacity: 0;
+            animation: fadeIn2 5s forwards;
+        }
+
+        @keyframes fadeIn2 {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        </text>
+    </style> *@
+</head>
+<body style="background-image: url('/assets/IChooseYou.png')" id="choosebg">  
+<div id="GPBIContent">
 @if (Model != null)
 {
-    <h2
-    style="text-shadow: 3px 3px 3px rgb(248, 246, 246)"
-    >I Choose You: @Model.Name.ToUpper()</h2>
+    <p id="chosen" class="fade-in-text">
+   
+     @Model.Name.ToUpper()</p>
+     <p id="chooseContent" class="fade-in-text2">I Choose You!</p>
+     <div id="backbuttondivcontent">
+       <button id="choosebackbutton">
+            <a 
+         
+            asp-area="" asp-controller="Home" asp-action="API">
+            Back To API</a>
+        </button>
+     </div>
     <!-- Display other details as needed -->
 }
 else
 {
     <p>Pokémon details not found.</p>
 }
+  </div>
 </body>
 </html>

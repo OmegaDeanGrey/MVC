@@ -7,26 +7,39 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Liberation.styles.css" asp-append-version="true" />
+    <style>
+        a.navbar-brand{
+            color:aliceblue;
+            font-size: 35px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        a.navbar-brand:hover{
+            color:rgb(194, 194, 248); 
+            transform: scale(1.1); 
+          text-shadow: 3px 3px 3px rgb(85, 85, 94);
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav class="navbar" id="tall-navbar">
-            <div id="navy">
+        <nav class="navbar">
+            <div>
             <ul>
                 <li class="navbar-brand">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Liberation">Liberation</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Liberation">Liberation</a>
                 </li>
                 <li class="navbar-brand">
-                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                 </li>
                 <li class="navbar-brand">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Notes">Notes</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Notes">Notes</a>
                 </li>
                 <li class="navbar-brand">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Auth">Join Us</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Auth">Join Us</a>
                 </li>
                  <li class="navbar-brand">
-                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="API">API</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="API">API</a>
                 </li>
             </ul>
             </div>

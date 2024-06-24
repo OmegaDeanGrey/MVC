@@ -1,6 +1,7 @@
 using Liberation.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using System.Threading.Tasks;
 
 
@@ -24,7 +25,7 @@ namespace Liberation.Controllers
         }
 
         // POST: Auth/Login
-        [HttpPost]
+    [HttpPost]
         public async Task<IActionResult> Login(LoginModel model)
         {
             if (ModelState.IsValid)
@@ -32,12 +33,18 @@ namespace Liberation.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    var user = await _userManager.FindByNameAsync(model.Username);
+                    if (user != null)
+                    {
+                        // Redirect to Proof if the user is authenticated
+                        return RedirectToAction("Proof");
+                    }
                 }
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
             return View(model);
         }
+
 
         // GET: Auth/Logout
         public async Task<IActionResult> Logout()
@@ -65,7 +72,8 @@ namespace Liberation.Controllers
                 if (result.Succeeded)
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    TempData["RegistrationSuccess"] = "Registration successful! Please log in with your credentials.";
+                    return RedirectToAction("Login", "Auth");
                 }
 
                 foreach (var error in result.Errors)
@@ -76,16 +84,18 @@ namespace Liberation.Controllers
 
             return View(model);
         }
-        // GET: Auth/Explain
-        public IActionResult Explain()
+
+        // GET: Auth/Proof
+           [Authorize]
+                   public IActionResult Proof()
         {
             return View();
         }
 
-        // GET: Auth/Proof
-        public IActionResult Proof()
+                public IActionResult AccessDenied()
         {
             return View();
         }
+
     }
 }
