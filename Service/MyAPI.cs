@@ -27,6 +27,7 @@ namespace Liberation.Models
             var responseContent = await response.Content.ReadAsStringAsync();
             var apiResponse = JsonConvert.DeserializeObject<PokemonApiResponse>(responseContent);
 
+
             return apiResponse;
         }
     }
@@ -34,14 +35,14 @@ namespace Liberation.Models
     public class PokemonApiResponse
     {
         public int Count { get; set; }
-        public string Next { get; set; }
-        public string Previous { get; set; }
-        public List<PokemonResult> Results { get; set; }
+        public string Next { get; set; } = string.Empty;
+        public string Previous { get; set; } = string.Empty;
+        public List<PokemonResult> Results { get; set; }  = new List<PokemonResult>();
     }
 
     public class PokemonResult
     {
-        public string Name { get; set; }
-        public string Url { get; set; }
+        public string Name { get; set; } = string.Empty; 
+        public string Url { get; set; } = string.Empty; 
     }
 }

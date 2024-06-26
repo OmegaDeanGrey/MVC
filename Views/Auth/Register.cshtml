@@ -7,6 +7,11 @@
     <title>@ViewData["Registration"]</title>
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+          <style>
+            a {
+                color: white;
+            }
+          </style>
 </head>
 <body  style="background-image: url('/assets/greyformbg.png')">
 <div>
@@ -48,8 +53,8 @@
         <input asp-for="Email" class="form-control" />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-    <button>
-        <a asp-area="" asp-controller="Auth" asp-action="Login" class="btn btn-warning" type="submit" id="regbutton">Register</a></button>
+    <button id="regbutton">
+        <a asp-area="" asp-controller="Auth" asp-action="Login" type="submit">Register</a></button>
 </form>
 </div>
 </body>

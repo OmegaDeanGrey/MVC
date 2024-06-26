@@ -15,6 +15,24 @@
         id="BGDiv"
         style="background-color: black">
 <h2>Login</h2>
+        @* Display registration success message if it exists *@
+        @if (TempData["RegistrationSuccess"] != null)
+        {
+            <div class="alert alert-success" id="registrationSuccessMessage">
+                @TempData["RegistrationSuccess"]
+            </div>
+        }
+
+        @* Display login error messages *@
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    <p>@error.ErrorMessage</p>
+                }
+            </div>
+        }
 
 <form asp-action="Login" method="post">
     <div id="LoginForm">
@@ -45,3 +63,13 @@
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
 }
+        <script>
+            // JavaScript to hide the registration success message after a few seconds
+            window.setTimeout(function () {
+                var elem = document.getElementById("registrationSuccessMessage");
+                if (elem) {
+                    elem.style.display = 'none';
+                }
+            }, 5000); // Hide after 5 seconds
+        </script>
+    }

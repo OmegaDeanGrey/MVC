@@ -33,12 +33,14 @@ namespace Liberation.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
+                                    
                     var user = await _userManager.FindByNameAsync(model.Username);
                     if (user != null)
-                    {
-                        // Redirect to Proof if the user is authenticated
+                      {
+                        TempData["LoginSuccess"] = "Login successful! Welcome, " + user.UserName;
                         return RedirectToAction("Proof");
                     }
+
                 }
                 ModelState.AddModelError(string.Empty, "Invalid login attempt.");
             }
@@ -73,6 +75,7 @@ namespace Liberation.Controllers
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
                     TempData["RegistrationSuccess"] = "Registration successful! Please log in with your credentials.";
+                    
                     return RedirectToAction("Login", "Auth");
                 }
 
@@ -99,3 +102,4 @@ namespace Liberation.Controllers
 
     }
 }
+

@@ -52,7 +52,7 @@ namespace Liberation.Controllers
     catch (HttpRequestException ex)
     {
         // Log or handle the exception appropriately
-        return StatusCode(500); // Internal Server Error
+        return StatusCode(500, ex); // Internal Server Error
     }
 }
     }
