@@ -55,6 +55,33 @@ body {
   margin-top: 110px;
 }
 
+#bluemodal {
+  background-color: rgba(139, 180, 247, 0.9);
+  font-weight: bolder;
+  border-radius: 35px;
+  border: 4px black double;
+  text-shadow: 3px 3px 3px rgb(251, 252, 253);
+  padding: 16px;
+}
+
+#greenmodal {
+  background-color: rgba(208, 249, 225, 0.9);
+  font-weight: bolder;
+  border-radius: 35px;
+  border: 4px black double;
+  text-shadow: 3px 3px 3px rgb(251, 252, 253);
+  padding: 16px;
+}
+
+#redmodal {
+  background-color: rgba(248, 184, 193, 0.9);
+  font-weight: bolder;
+  border-radius: 35px;
+  border: 4px black double;
+  text-shadow: 3px 3px 3px rgb(251, 252, 253);
+  padding: 16px;
+}
+
 #crudite {
   font-size: 60px;
   color: rgb(204, 206, 246);
@@ -79,6 +106,17 @@ body {
 #frontwords {
   font-size: 130px;
   font-family: Georgia, "Times New Roman", Times, serif;
+  animation: fadeIn 7s;
+  margin-top: 67px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #subtext {
@@ -157,12 +195,12 @@ td {
 }
 
 #subwelcome {
-  color: rgb(99, 97, 97);
+  color: rgb(9, 8, 8);
   font-size: 35px;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 30px;
-  text-shadow: 3px 3px 3px rgb(7, 7, 7);
+  text-shadow: 3px 3px 3px rgb(251, 248, 248);
 }
 
 #titlewords {
