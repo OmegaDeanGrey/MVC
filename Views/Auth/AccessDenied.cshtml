@@ -1,6 +1,34 @@
 @{
     ViewData["Title"] = "Access Denied";
 }
-
-<h1>Access Denied</h1>
-<p>You do not have permission to view this page.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+       a {
+        color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div id="denied" 
+    style="background-image: url('/assets/stop.png')">
+    <div>
+<h1 id="deniedtitle">ACCESS DENIED</h1>
+</div>
+<div>
+<p id="deniedperm">You need permission to view this page.</p>
+</div>
+</div>
+     <div class="btn btn-muted">
+       <button id="authbackbutton">
+            <a 
+         
+            asp-area="" asp-controller="Home" asp-action="Auth">
+            Go Back</a>
+        </button>
+     </div>
+</body>
+</html>

@@ -19,9 +19,16 @@ namespace Liberation.Controllers
         }
 
         // GET: API/Index
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int limit = 25, int offset = 0)
         {
-            var data = await _myApiService.GetApiDataAsync();
+            string url = $"https://pokeapi.co/api/v2/pokemon?limit={limit}&offset={offset}";
+            var data = await _myApiService.GetApiDataAsync(url);
+
+            ViewBag.Limit = limit;
+            ViewBag.Offset = offset;
+            ViewBag.NextOffset = offset + limit;
+            ViewBag.PreviousOffset = offset - limit < 0 ? 0 : offset - limit;
+
             return View(data);
         }
 

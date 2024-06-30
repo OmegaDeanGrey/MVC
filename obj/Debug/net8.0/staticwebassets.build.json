@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9+8+VFexdYQ1AUPJZ0yNqcUyoFf7hbm39gj+ja5Y+4E=",
+  "Hash": "31K8ApVdlWUUFDIbQboeG9UgH8ixWyHyQFU4Wjvrw4g=",
   "Source": "Liberation",
   "BasePath": "_content/Liberation",
   "Mode": "Default",
@@ -1554,6 +1554,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/security.png"
+    },
+    {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/stop.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/stop.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/stop.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/TS.png",

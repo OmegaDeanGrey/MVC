@@ -7,23 +7,56 @@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <style>
+
+            .directional {
+                color: white;
+                border: 10px rgb(248, 48, 3) double;
+                font-size: 31px;
+                font-weight: bolder;
+                border-radius: 30px;
+                padding: 9px;
+                margin-top: 20px;
+                box-shadow: 3px 3px 3px rgb(250, 185, 185) inset;
+            }
+
+            .directional:hover {
+               color: rgb(250, 251, 243);
+               background-color: rgb(180, 6, 6);
+            }
+
+            ol {
+                list-style-type: decimal;
+                }
+        </style>
 </head>
 
 <body style="background-image: url('/assets/PikaBG2.png')" id="pikabg">
+    <span>
 
 <h1
-id="GAPListTitle">Pokémon List</h1>
-
-<ul>
+id="GAPListTitle">
+            @if (ViewBag.Offset > 0)
+    {
+        <a asp-action="Index" asp-route-limit="@ViewBag.Limit" asp-route-offset="@ViewBag.PreviousOffset" class="directional">Previous</a>
+    }
+    Pokémon List
+       @if (!string.IsNullOrEmpty(Model.Next))
+    {
+        <a asp-action="Index" asp-route-limit="@ViewBag.Limit" asp-route-offset="@ViewBag.NextOffset" class="directional">Next</a>
+    }
+    </h1>
+ 
+</span>
+<ol>
     @foreach (var pokemon in Model.Results)
     {
         <li
         id="pokemonlist"
-        >@pokemon.Name</li>
+        >@pokemon.Name.ToUpper()</li>
+
     }
-</ul>
-
-
+</ol>
 
 
 </body>

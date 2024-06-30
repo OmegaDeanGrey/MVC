@@ -12,19 +12,41 @@
 }
       a {
             color: rgb(6, 4, 25);
-            text-shadow: 3px 3px 3px rgb(24, 28, 148);
+            text-shadow: 3px 3px 3px rgb(61, 63, 118);
+          
           }
+    h2 {
+        font-size: 44px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    input {
+        border-radius: 30px;
+        height:50px;
+        margin-left: 34px;
+    }
         </style>
 </head>
 <body        style="background-image: url('/assets/LucaBg.png')" id="bodyAPI" >
+<h1 id="APItitle">
+   Explore 3rd Party API 
+</h1>
 <div
 id="APImain">
 <h1 id="GAPTitle">Get a List of All Pokemon</h1>
-    <button id="PokemonListButton">
+    <span id="retropage">
+        <button id="PokemonListButton">
             <a
              asp-area="" asp-controller="API" asp-action="Index">
             RETRIEVE</a>
         </button>
+        <p id="pagelabel">
+            Now With Paginated Results!
+        </p>
+        </span>
  <h2 id="GPBITitle">Search for a Pokémon by ID</h2>
 
 <form asp-area="" asp-controller="API" asp-action="ById" method="post">

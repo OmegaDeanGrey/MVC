@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets/assets/security.png"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/stop.png",
+      "PackagePath": "staticwebassets/assets/stop.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

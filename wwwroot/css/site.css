@@ -92,24 +92,30 @@ body {
   font-size: 45px;
   text-shadow: 4px 4px 4px darkblue;
   border-radius: 30px;
+  border: 18px rgb(217, 217, 251) double;
+  padding: 20px;
 }
 
 #WelcomeButtons2 {
   font-size: 45px;
   text-shadow: 4px 4px 4px rgb(36, 89, 69);
   border-radius: 30px;
+  border: 18px rgb(224, 251, 240) double;
+  padding: 20px;
 }
 
 #WelcomeButtons3 {
   font-size: 45px;
   text-shadow: 4px 4px 4px rgb(113, 10, 10);
   border-radius: 30px;
+  border: 18px rgb(251, 222, 222) double;
+  padding: 20px;
 }
 
 #WelcomeButtonSpan {
   display: flex;
   justify-content: space-between;
-  margin-top: 200px;
+  margin-top: 130px;
 }
 
 th {
@@ -148,6 +154,15 @@ td {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 70px;
   text-shadow: 3px 3px 3px rgb(134, 121, 121);
+}
+
+#subwelcome {
+  color: rgb(99, 97, 97);
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 30px;
+  text-shadow: 3px 3px 3px rgb(7, 7, 7);
 }
 
 #titlewords {
@@ -268,6 +283,7 @@ input {
   text-shadow: 3px 3px 3px black;
   display: flex;
   justify-content: center;
+  font-size: 17px;
 }
 
 #GAPTitle {
@@ -279,14 +295,14 @@ input {
 
 #GPBITitle {
   text-shadow: 4px 4px 4px rgb(120, 137, 213);
-  margin-top: 80px;
+  margin-top: 30px;
   color: aliceblue;
   font-weight: bolder;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #PokemonListButton {
-  background-color: rgb(246, 248, 249);
+  background-color: rgb(143, 184, 204);
   color: black;
   border-radius: 25px;
   font-size: 30px;
@@ -296,28 +312,32 @@ input {
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 8px;
   margin: 24px;
+  transition: transform 0.3s ease-in-out;
 }
 
 #PokemonListButton:hover {
-  background-color: rgb(206, 231, 244);
+  background-color: #9ed4ef;
+  transform: scale(1.2);
 }
 
 #GPBISearchButton {
-  background-color: rgb(243, 247, 249);
+  background-color: rgb(143, 184, 204);
   color: black;
   border-radius: 25px;
   font-size: 30px;
   text-decoration: none;
-  text-shadow: 2px 2px 2px rgb(143, 151, 243);
+  text-shadow: 2px 2px 2px rgb(71, 85, 89);
   border: 14px white double;
   font-family: Georgia, "Times New Roman", Times, serif;
   padding: 8px;
   margin-left: 60px;
+  margin-top: 18px;
+  transition: transform 0.3s ease-in-out;
 }
 
 #GPBISearchButton:hover {
-  background-color: rgb(196, 229, 246);
-  transition: scale(1.2);
+  background-color: rgb(93, 148, 175);
+  transform: scale(1.2);
 }
 
 #chooseContent {
@@ -350,8 +370,8 @@ input {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 3px 3px 3px black;
   display: flex;
-  justify-content: center;
-  text-decoration: underline;
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
 #GPBIlabel {
@@ -361,10 +381,10 @@ input {
 }
 
 #APImain {
-  background-color: rgba(20, 20, 20, 0.7);
-  padding: 29px;
+  background-color: rgba(20, 20, 20, 0.8);
+  padding: 69px;
   margin: 20px;
-  border-radius: 25px;
+  border-radius: 45px;
   border: 15px black double;
 }
 
@@ -476,4 +496,63 @@ input {
   color: rgb(216, 216, 245);
   border: 3px rgb(158, 149, 149) double;
   padding: 18px;
+}
+
+#denied {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-left: 90px;
+  height: 66vh;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 4px 4px 4px rgb(245, 213, 213);
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#deniedtitle {
+  font-size: 137px;
+  font-weight: 600px;
+}
+
+#deniedperm {
+  font-size: 40px;
+  margin-top: 89px;
+}
+
+#authbackbutton {
+  background-color: rgba(111, 6, 6, 0.8);
+  border-radius: 30px;
+  font-size: 40px;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgb(249, 244, 244);
+  border: 20px rgb(168, 12, 12) double;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  margin-left: 800px;
+}
+
+#APItitle {
+  color: black;
+  text-shadow: 6px 6px 6px rgb(218, 215, 240);
+  font-size: 62px;
+  margin: 50px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#retropage {
+  display: flex;
+}
+
+#pagelabel {
+  color: aliceblue;
+  font-weight: bolder;
+  margin-top: 20px;
 }
