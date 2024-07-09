@@ -18,7 +18,12 @@
             color:rgb(194, 194, 248); 
             transform: scale(1.1); 
           text-shadow: 3px 3px 3px rgb(85, 85, 94);
+          
         }
+
+        .navbar:hover {
+  background-color: rgba(18, 20, 24, 0.75);
+}
     </style>
 </head>
 <body>
@@ -41,6 +46,9 @@
                  <li class="navbar-brand">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="API">API</a>
                 </li>
+                <li class="navbar-brand">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Audible">Keys</a>
+                </li>
             </ul>
             </div>
         </nav>
@@ -54,7 +62,7 @@
 
     <footer class="border-top footer text-light text-bolder">
         <div class="container">
-            &copy; 2024 - Liberation
+            &copy; 2024 - Liberated
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

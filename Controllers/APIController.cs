@@ -3,7 +3,6 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Liberation.Models;
-using System.Diagnostics;
 
 namespace Liberation.Controllers
 {
@@ -40,27 +39,49 @@ namespace Liberation.Controllers
 
         // POST: API/ById
         [HttpPost]
-       public async Task<IActionResult> ById(int id)
-{
-    try
-    {
-        var response = await _httpClient.GetAsync($"https://pokeapi.co/api/v2/pokemon/{id}");
-        response.EnsureSuccessStatusCode();
-        var content = await response.Content.ReadAsStringAsync();
-        var pokemonDetail = JsonConvert.DeserializeObject<PokemonDetail>(content);
-
-        if (pokemonDetail == null)
+        public async Task<IActionResult> ById(int id)
         {
-            return NotFound();
+            try
+            {
+                var response = await _httpClient.GetAsync($"https://pokeapi.co/api/v2/pokemon/{id}");
+                response.EnsureSuccessStatusCode();
+                var content = await response.Content.ReadAsStringAsync();
+                var pokemonDetail = JsonConvert.DeserializeObject<PokemonDetail>(content);
+
+                if (pokemonDetail == null)
+                {
+                    return NotFound();
+                }
+
+                return View(pokemonDetail);
+            }
+            catch (HttpRequestException ex)
+            {
+                // Log or handle the exception appropriately
+                return StatusCode(500, ex); // Internal Server Error
+            }
         }
 
-        return View(pokemonDetail);
-    }
-    catch (HttpRequestException ex)
-    {
-        // Log or handle the exception appropriately
-        return StatusCode(500, ex); // Internal Server Error
-    }
-}
+        // POST: API/ByName
+        [HttpPost]
+        public async Task<IActionResult> ByName(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                return BadRequest("Pokemon name is required.");
+            }
+
+            var pokemonDetails = await _myApiService.GetPokemonByNameAsync(name.Trim());
+            if (pokemonDetails == null)
+            {
+                return NotFound();
+            }
+            Console.WriteLine(JsonConvert.SerializeObject(pokemonDetails));
+
+            // Pass the front_default sprite URL to the view
+        ViewData["FrontDefaultSprite"] = pokemonDetails.PokemonSprites.Front_default;
+
+            return View("ByName", pokemonDetails);
+        }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "31K8ApVdlWUUFDIbQboeG9UgH8ixWyHyQFU4Wjvrw4g=",
+  "Hash": "Bi14JYt97P+6QlS1nvrN1UDkDtkiG14ejqw0Uu+wtLE=",
   "Source": "Liberation",
   "BasePath": "_content/Liberation",
   "Mode": "Default",
@@ -1309,6 +1309,25 @@
       "OriginalItemSpec": "wwwroot/assets/Kingda.mp4"
     },
     {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/lion.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/lion.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/lion.png"
+    },
+    {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/LucaBg.png",
       "SourceId": "Liberation",
       "SourceType": "Discovered",
@@ -1594,6 +1613,25 @@
       "OriginalItemSpec": "wwwroot/assets/TS.png"
     },
     {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/vault.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/vault.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/vault.png"
+    },
+    {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
       "SourceId": "Liberation",
       "SourceType": "Discovered",
@@ -1611,6 +1649,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/View.jpg"
+    },
+    {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/WhiteDoor.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/WhiteDoor.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/WhiteDoor.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",

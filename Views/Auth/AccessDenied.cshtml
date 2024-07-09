@@ -8,21 +8,69 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <style>
        a {
-        color: aliceblue;
+        color: rgb(240, 168, 165);
+        },
+
+        nav {
+            background-color: rgb(242, 35, 35);
         }
+
+
+        body {
+            background-image: url('/assets/WhiteDoor.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+
+        }
+
+        #denieddiv {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: rgb(7, 7, 7); /* Adjust as needed */
+            right: -230px;
+        }
+
+        #deniedtitle, #deniedperm {
+            white-space: nowrap; /* Prevent text from wrapping */
+
+        }
+
+        #authbackbutton {
+            background-color: rgba(111, 6, 6, 0.8);
+            border-radius: 30px;
+            font-size: 40px;
+            text-decoration: none;
+            text-shadow: 2px 2px 2px rgb(249, 244, 244);
+            border: 20px rgb(168, 12, 12) double;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            padding: 10px;
+            margin-left: 800px;
+            position: relative;
+            bottom: 50px;
+            box-shadow: 5px pink;
+}
+
+#authbackbutton:hover {
+        background-color: rgb(164, 62, 62);
+        color: black;
+}
+
     </style>
 </head>
 <body>
-<div id="denied" 
-    style="background-image: url('/assets/stop.png')">
-    <div>
+<div id="denied">
+    <div id="denieddiv">
 <h1 id="deniedtitle">ACCESS DENIED</h1>
-</div>
-<div>
 <p id="deniedperm">You need permission to view this page.</p>
 </div>
 </div>
-     <div class="btn btn-muted">
+     <div >
        <button id="authbackbutton">
             <a 
          
@@ -30,5 +78,6 @@
             Go Back</a>
         </button>
      </div>
+
 </body>
 </html>

@@ -49,11 +49,11 @@ id="GAPListTitle">
  
 </span>
 <ol>
-    @foreach (var pokemon in Model.Results)
+    @foreach (var pokemon in Model.Results.Select((value, index) => new { Value = value, Index = index }))
     {
         <li
         id="pokemonlist"
-        >@pokemon.Name.ToUpper()</li>
+        >@((ViewBag.Offset ?? 0) + pokemon.Index + 1).  @pokemon.Value.Name.ToUpper()</li>
 
     }
 </ol>

@@ -1,0 +1,140 @@
+@{ ViewData["Title"] = "Drag and Drop Game"; }
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>@ViewData["Title"]</title>
+
+    <style>
+              body {
+  
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+      .container {
+            position: absolute;
+
+            border: 1px solid #ccc;
+            background-color: #370505;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+      @* #lion {
+            position: relative;
+
+   
+            background-repeat: no-repeat;
+            background-position:center;
+
+        } *@
+
+      .ball {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+                margin-top: 100px;
+      }
+
+      .hoop {
+        width: 100px;
+        height: 100px;
+        border: 5px dashed rgb(74, 16, 17);
+        border-radius: 50%;
+        position: relative;
+           @* bottom: 10%;
+            left: 50%;
+            transform: translateX(-50%); *@
+            @* display: flex;
+            justify-content: center;
+            align-items: center; *@
+            color: #4a1011;
+            font-weight: bold;
+
+
+      }
+
+      .hidden {
+        display: none;
+      }
+
+              #success-message {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            z-index: 5;
+        }
+    </style>
+  </head>
+  <body
+
+
+            img src="/assets/lion.png" id="lion">;
+        <div id="ball" class="ball" draggable="true">Apple</div>
+        <div id="hoop" class="hoop">FEED ME</div>
+        <div id="success-message" class="hidden">Congratulations! You fed Bentley Jenkins!</div>
+
+
+
+    <script>
+      const ball = document.getElementById("ball");
+      const hoop = document.getElementById("hoop");
+      const successMessage = document.getElementById("success-message");
+
+      ball.addEventListener("dragstart", dragStart);
+      hoop.addEventListener("dragover", dragOver);
+      hoop.addEventListener("drop", drop);
+
+      function dragStart(e) {
+        e.dataTransfer.setData("text/plain", "ball");
+      }
+
+      function dragOver(e) {
+        e.preventDefault();
+      }
+
+      function drop(e) {
+        e.preventDefault();
+        const data = e.dataTransfer.getData("text");
+        if (data === "ball") {
+          const ballElement = document.getElementById(data);
+          ballElement.style.position = "absolute";
+          ballElement.style.left = `${
+            e.clientX - ballElement.offsetWidth / 2
+          }px`;
+          ballElement.style.top = `${
+            e.clientY - ballElement.offsetHeight / 2
+          }px`;
+
+          // Check if ball is inside the hoop
+          const hoopRect = hoop.getBoundingClientRect();
+          const ballRect = ballElement.getBoundingClientRect();
+          if (
+            ballRect.left >= hoopRect.left &&
+            ballRect.top >= hoopRect.top &&
+            ballRect.right <= hoopRect.right &&
+            ballRect.bottom <= hoopRect.bottom
+          ) {
+            successMessage.classList.remove("hidden");
+            setTimeout(() => {
+              window.location.href = "/Audible/DandD"; // Replace with your next view
+            }, 2000); // Redirect after 2 seconds
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

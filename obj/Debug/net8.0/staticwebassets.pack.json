@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets/assets/View.jpg"
     },
     {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/WhiteDoor.png",
+      "PackagePath": "staticwebassets/assets/WhiteDoor.png"
+    },
+    {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/chalkboard.png",
       "PackagePath": "staticwebassets/assets/chalkboard.png"
     },
@@ -67,6 +71,10 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/greyformbg.png",
       "PackagePath": "staticwebassets/assets/greyformbg.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/lion.png",
+      "PackagePath": "staticwebassets/assets/lion.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office.png",
@@ -91,6 +99,10 @@
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/stop.png",
       "PackagePath": "staticwebassets/assets/stop.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/vault.png",
+      "PackagePath": "staticwebassets/assets/vault.png"
     },
     {
       "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",

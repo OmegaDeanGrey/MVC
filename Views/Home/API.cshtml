@@ -31,9 +31,6 @@
         </style>
 </head>
 <body        style="background-image: url('/assets/LucaBg.png')" id="bodyAPI" >
-<h1 id="APItitle">
-   Explore 3rd Party API 
-</h1>
 <div
 id="APImain">
 <h1 id="GAPTitle">Get a List of All Pokemon</h1>
@@ -61,6 +58,14 @@ id="APImain">
         type="submit">CHOOSE</button>
     </div>
 </form>
+<h2 id="GPBITitle">Search for a Pokémon by Name</h2>
+        <form asp-area="" asp-controller="API" asp-action="ByName" method="post">
+            <div>
+                <label for="pokemonName" id="GPBIlabel">Pokemon Name:</label>
+                <input type="text" id="pokemonName" name="name" placeholder="Enter Pokémon name" required oninvalid="this.setCustomValidity('Please enter a Pokémon name')" oninput="this.setCustomValidity('')" />
+                <button id="GPBISearchButton" type="submit">SEARCH</button>
+            </div>
+        </form>
 </div>
 </body>
 </html>

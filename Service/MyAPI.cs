@@ -8,6 +8,8 @@ namespace Liberation.Models
     public interface IMyApiService
     {
         Task<PokemonApiResponse> GetApiDataAsync(string url = "https://pokeapi.co/api/v2/pokemon?limit=25&offset=25");
+        Task<PokemonDetail> GetPokemonByNameAsync(string name);
+
     }
 
     public class MyApiService : IMyApiService
@@ -30,6 +32,17 @@ namespace Liberation.Models
 
             return apiResponse;
         }
+         public async Task<PokemonDetail> GetPokemonByNameAsync(string name)
+        {
+            var response = await _httpClient.GetAsync($"https://pokeapi.co/api/v2/pokemon/{name.ToLower()}");
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var pokemonDetail = JsonConvert.DeserializeObject<PokemonDetail>(content);
+                return pokemonDetail;
+            }
+            return null;
+        }
     }
 
     public class PokemonApiResponse
@@ -45,4 +58,6 @@ namespace Liberation.Models
         public string Name { get; set; } = string.Empty; 
         public string Url { get; set; } = string.Empty; 
     }
+
+  
 }

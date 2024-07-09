@@ -2,7 +2,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Liberation.Models;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -50,7 +53,10 @@ builder.Services.AddHttpClient();
 // Register your custom API service
 builder.Services.AddScoped<IMyApiService, MyApiService>();
 
+
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -65,12 +71,16 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+  
+
 // Define routing to the Views from the Controller Actions
 app.UseEndpoints(endpoints =>
 {
     _ = endpoints.MapControllerRoute(
         name: "default",
         pattern: "{controller=Home}/{action=Index}/{id?}");
+
+    
 
     _ = endpoints.MapControllerRoute(
         name: "liberation",
@@ -136,6 +146,16 @@ app.UseEndpoints(endpoints =>
         name: "API_ById",
         pattern: "API/ById",
         defaults: new { controller = "API", action = "ById" });
+
+    _ = endpoints.MapControllerRoute(
+        name: "API_ByName",
+        pattern: "API/ByName",
+        defaults: new { controller = "API", action = "ByName" });
+
+        _ = endpoints.MapControllerRoute(
+        name: "Home_Audible",
+        pattern: "Home/Audible",
+        defaults: new { controller = "Home", action = "Audible" });
 });
 
 app.Run();

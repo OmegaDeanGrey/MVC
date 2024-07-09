@@ -29,8 +29,16 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQVBJL0J5SWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/deangrey/Desktop/Liberation/Views/API/ByName.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQVBJL0J5TmFtZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/deangrey/Desktop/Liberation/Views/API/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQVBJL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Audible/DandD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXVkaWJsZS9EYW5kRC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/deangrey/Desktop/Liberation/Views/Auth/AccessDenied.cshtml]
@@ -51,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/deangrey/Desktop/Liberation/Views/Home/API.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BUEkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/deangrey/Desktop/Liberation/Views/Home/Audible.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BdWRpYmxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/deangrey/Desktop/Liberation/Views/Home/Auth.cshtml]

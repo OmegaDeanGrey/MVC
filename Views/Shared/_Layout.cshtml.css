@@ -7,6 +7,10 @@ for details on configuring this project to bundle and minify static web assets. 
   justify-content: start;
 }
 
+.navbar:hover {
+  background-color: none;
+}
+
 .navbar-brand {
   color: rgb(233, 232, 232);
   font-family: Georgia, "Times New Roman", Times, serif;

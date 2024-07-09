@@ -1,0 +1,44 @@
+@model Liberation.Models.PokemonDetail
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Details</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <script type="text/javascript">
+function hideText(textContainer) {
+document.getElementById(textContainer).style.display = 'flex';
+}
+
+setTimeout("hideText('flasher')", 12000)
+
+</script>
+</head>
+<body>
+  
+
+@if (!string.IsNullOrEmpty(ViewData["FrontDefaultSprite"] as string))
+{
+    <img src="@ViewData["FrontDefaultSprite"]" alt="Pokemon Image" />
+}
+else
+{
+    <p>No sprite available.</p>
+}
+          <div id="flasher">@Model.Name.ToUpper()
+       
+    </div>
+    <p id="heighttag">Height: @Model.Height</p>
+    <p id="weighttag">Weight: @Model.Weight</p>
+</div>
+</body>
+
+</html>
