@@ -11,28 +11,25 @@
     <style>
               body {
   
-            margin: 0;
-            background-color: #f0f0f0;
+  
+ margin: 0px;
         }
-      .container {
+      .container2 {
+            background-image: url("/assets/lion.png");
             position: absolute;
-
+            height: 72%;
+            width: 60%;
             border: 1px solid #ccc;
             background-color: #370505;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
-        }
-
-      @* #lion {
-            position: relative;
 
    
             background-repeat: no-repeat;
             background-position:center;
-
-        } *@
+        }
 
       .ball {
         width: 50px;
@@ -41,58 +38,47 @@
         border-radius: 50%;
         cursor: pointer;
         position: relative;
-                margin-top: 100px;
+                bottom: 10%;
+            left: -10%;
       }
 
       .hoop {
         width: 100px;
         height: 100px;
-        border: 5px dashed rgb(74, 16, 17);
+        border: 5px dashed rgb(188, 48, 48);
         border-radius: 50%;
         position: relative;
-           @* bottom: 10%;
-            left: 50%;
-            transform: translateX(-50%); *@
-            @* display: flex;
+   
+                        margin-top: 100px;
+             
+            @* transform: translateX(-50%); *@
+            display: flex;
             justify-content: center;
-            align-items: center; *@
-            color: #4a1011;
+            align-items: center;
+            color: #dbc6c7;
             font-weight: bold;
+        
 
 
       }
 
-      .hidden {
-        display: none;
-      }
-
-              #success-message {
-            position: absolute;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: #4caf50;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            z-index: 5;
-        }
+        
     </style>
   </head>
-  <body
+  <body>
+    <h2 id="DandDtitle">
+      Welcome to Drag and Drop 
+    </h2>
+    <div class="container2">
 
-
-            img src="/assets/lion.png" id="lion">;
         <div id="ball" class="ball" draggable="true">Apple</div>
         <div id="hoop" class="hoop">FEED ME</div>
-        <div id="success-message" class="hidden">Congratulations! You fed Bentley Jenkins!</div>
 
-
+</div>
 
     <script>
       const ball = document.getElementById("ball");
       const hoop = document.getElementById("hoop");
-      const successMessage = document.getElementById("success-message");
 
       ball.addEventListener("dragstart", dragStart);
       hoop.addEventListener("dragover", dragOver);
@@ -120,7 +106,7 @@
           }px`;
 
           // Check if ball is inside the hoop
-          const hoopRect = hoop.getBoundingClientRect();
+            const hoopRect = hoop.getBoundingClientRect();
           const ballRect = ballElement.getBoundingClientRect();
           if (
             ballRect.left >= hoopRect.left &&
@@ -128,10 +114,10 @@
             ballRect.right <= hoopRect.right &&
             ballRect.bottom <= hoopRect.bottom
           ) {
-            successMessage.classList.remove("hidden");
-            setTimeout(() => {
-              window.location.href = "/Audible/DandD"; // Replace with your next view
-            }, 2000); // Redirect after 2 seconds
+            alert("Congratulations! You fed Bentley!");
+            @* setTimeout(() => {
+              window.location.href = "/Home/Audible"; // Replace with your next view
+            }, 3000); // Redirect after 2 seconds *@
           }
         }
       }

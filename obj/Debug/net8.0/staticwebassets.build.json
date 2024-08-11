@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bi14JYt97P+6QlS1nvrN1UDkDtkiG14ejqw0Uu+wtLE=",
+  "Hash": "1C8CML43e56hRtqgZ/W0PUs3bdjxAd0DyedLcLzwO18=",
   "Source": "Liberation",
   "BasePath": "_content/Liberation",
   "Mode": "Default",
@@ -1554,6 +1554,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/assets/PokeBG.png"
+    },
+    {
+      "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/rippednotes.png",
+      "SourceId": "Liberation",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/deangrey/Desktop/Liberation/wwwroot/",
+      "BasePath": "_content/Liberation",
+      "RelativePath": "assets/rippednotes.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/rippednotes.png"
     },
     {
       "Identity": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/security.png",

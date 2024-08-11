@@ -163,6 +163,14 @@ ol {
   margin-top: 130px;
 }
 
+#homebg {
+  /* background-image: contain; */
+  background-repeat: repeat;
+  /* background-position: center; */
+  height: 82%;
+  width: 100%;
+}
+
 th {
   color: rgb(162, 243, 201);
   font-size: 35px;
@@ -194,14 +202,18 @@ td {
 }
 
 #thewelcome {
+  display: flex;
+  justify-content: center;
   font-size: 85px;
   font-weight: bolder;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-top: 70px;
-  text-shadow: 3px 3px 3px rgb(134, 121, 121);
+  text-shadow: 3px 3px 3px rgb(239, 235, 235);
 }
 
 #subwelcome {
+  display: flex;
+  justify-content: center;
   color: rgb(9, 8, 8);
   font-size: 35px;
   font-weight: bold;
@@ -692,12 +704,23 @@ input {
   text-shadow: 4px 4px 4px rgb(213, 179, 245);
 }
 
-.hoop {
-  animation: blinker 4s linear infinite;
+#DandDtitle {
+  color: black;
 }
 
-@keyframes blinker {
-  50% {
-    opacity: 0;
-  }
+#explore {
+  font-size: 60px;
+  color: rgb(71, 75, 56);
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 2px rgb(2, 2, 2);
+  margin: 40px;
+  font-weight: bolder;
+  background-color: rgb(249, 242, 234);
+  padding: 31px;
+  border-radius: 30%;
+}
+
+#explorediv {
+  display: flex;
+  justify-content: center;
 }
