@@ -18,9 +18,12 @@ builder.Services.AddDbContext<LiberationDbContext>(options =>
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<LiberationDbContext>()
     .AddDefaultTokenProviders();
+// Register your polling service as a background service
+// builder.Services.AddHostedService<DatabasePollerService>();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
+    
     // Password settings
     options.Password.RequireDigit = true;
     options.Password.RequiredLength = 8;
@@ -64,6 +67,8 @@ if (!app.Environment.IsDevelopment())
     _ = app.UseExceptionHandler("/Home/Error");
     _ = app.UseHsts();
 }
+
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -156,6 +161,47 @@ app.UseEndpoints(endpoints =>
         name: "Home_Audible",
         pattern: "Home/Audible",
         defaults: new { controller = "Home", action = "Audible" });
+
+        
+        _ = endpoints.MapControllerRoute(
+        name: "Home_Lingual",
+        pattern: "Home/Lingual",
+        defaults: new { controller = "Home", action = "Lingual" });
+
+        _ = endpoints.MapControllerRoute(
+        name: "Lingual_Python",
+        pattern: "Lingual/Python",
+        defaults: new { controller = "Lingual", action = "Python" });
+
+        _ = endpoints.MapControllerRoute(
+        name: "Lingual_CSharp",
+        pattern: "Lingual/CSharp",
+        defaults: new { controller = "Lingual", action = "CSharp" });
+
+        _ = endpoints.MapControllerRoute(
+        name: "Lingual_JS",
+        pattern: "Lingual/JS",
+        defaults: new { controller = "Lingual", action = "JS" });
+
+        _ = endpoints.MapControllerRoute(
+        name: "Lingual_Typescript",
+        pattern: "Lingual/Typescript",
+        defaults: new { controller = "Lingual", action = "Typescript" });
+
+     _ = endpoints.MapControllerRoute(
+        name: "Home_Data",
+        pattern: "Home/Data",
+        defaults: new { controller = "Home", action = "Data" });
+
+     _ = endpoints.MapControllerRoute(
+        name: "Data_Analyze",
+        pattern: "Data/Analyze",
+        defaults: new { controller = "Data", action = "Analyze" });
+
+      _ = endpoints.MapControllerRoute(
+        name: "Data_DataPing",
+        pattern: "Data/DataPing",
+        defaults: new { controller = "Data", action = "DataPing" });
 });
 
 app.Run();

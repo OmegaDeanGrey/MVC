@@ -12,6 +12,7 @@ public class NoteModel
         [Required]
         public required string Title { get; set; }
         [Required]
+
         public string? Note { get; set; }
     }
 }

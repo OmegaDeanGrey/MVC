@@ -1,351 +1,375 @@
 {
   "Files": [
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/obj/Debug/net8.0/scopedcss/projectbundle/Liberation.bundle.scp.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/obj/Debug/net8.0/scopedcss/projectbundle/Liberation.bundle.scp.css",
       "PackagePath": "staticwebassets/Liberation.bundle.scp.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Controller.jpg",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/CSBG.png",
+      "PackagePath": "staticwebassets/assets/CSBG.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/Controller.jpg",
       "PackagePath": "staticwebassets/assets/Controller.jpg"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/IChooseYou.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/IChooseYou.png",
       "PackagePath": "staticwebassets/assets/IChooseYou.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Kingda.mp4",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/JSBG.png",
+      "PackagePath": "staticwebassets/assets/JSBG.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/Kingda.mp4",
       "PackagePath": "staticwebassets/assets/Kingda.mp4"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/LucaBg.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/LucaBg.png",
       "PackagePath": "staticwebassets/assets/LucaBg.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Model.jpg",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/Model.jpg",
       "PackagePath": "staticwebassets/assets/Model.jpg"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/Notes3.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/Notes3.png",
       "PackagePath": "staticwebassets/assets/Notes3.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/NotesPad.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/NotesPad.png",
       "PackagePath": "staticwebassets/assets/NotesPad.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/OldMac.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/OldMac.png",
       "PackagePath": "staticwebassets/assets/OldMac.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PikaBG.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/PBG.png",
+      "PackagePath": "staticwebassets/assets/PBG.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/Pad.png",
+      "PackagePath": "staticwebassets/assets/Pad.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/PikaBG.png",
       "PackagePath": "staticwebassets/assets/PikaBG.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PikaBG2.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/PikaBG2.png",
       "PackagePath": "staticwebassets/assets/PikaBG2.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/PokeBG.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/PokeBG.png",
       "PackagePath": "staticwebassets/assets/PokeBG.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/TS.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/TS.png",
       "PackagePath": "staticwebassets/assets/TS.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/View.jpg",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/TSBG.png",
+      "PackagePath": "staticwebassets/assets/TSBG.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/View.jpg",
       "PackagePath": "staticwebassets/assets/View.jpg"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/WhiteDoor.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/WhiteDoor.png",
       "PackagePath": "staticwebassets/assets/WhiteDoor.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/chalkboard.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/chalkboard.png",
       "PackagePath": "staticwebassets/assets/chalkboard.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/desk.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/desk.png",
       "PackagePath": "staticwebassets/assets/desk.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/greyformbg.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/examine.png",
+      "PackagePath": "staticwebassets/assets/examine.png"
+    },
+    {
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/greyformbg.png",
       "PackagePath": "staticwebassets/assets/greyformbg.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/lion.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/lion.png",
       "PackagePath": "staticwebassets/assets/lion.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/office.png",
       "PackagePath": "staticwebassets/assets/office.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office2.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/office2.png",
       "PackagePath": "staticwebassets/assets/office2.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/office3.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/office3.png",
       "PackagePath": "staticwebassets/assets/office3.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/openbook.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/openbook.png",
       "PackagePath": "staticwebassets/assets/openbook.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/rippednotes.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/rippednotes.png",
       "PackagePath": "staticwebassets/assets/rippednotes.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/security.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/security.png",
       "PackagePath": "staticwebassets/assets/security.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/stop.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/stop.png",
       "PackagePath": "staticwebassets/assets/stop.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/assets/vault.png",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/assets/vault.png",
       "PackagePath": "staticwebassets/assets/vault.png"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/css/site.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/favicon.ico",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/js/site.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/deangrey/Desktop/Liberation/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/deangrey/Desktop/ToSort/Liberation/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {

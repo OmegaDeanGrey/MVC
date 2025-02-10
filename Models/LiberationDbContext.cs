@@ -12,5 +12,6 @@ namespace Liberation.Models
         }
 
         public DbSet<NoteModel> Notes { get; set; }
+
     }
 }

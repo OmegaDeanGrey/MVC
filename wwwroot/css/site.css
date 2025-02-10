@@ -115,6 +115,7 @@ ol {
   font-family: Georgia, "Times New Roman", Times, serif;
   animation: fadeIn 7s;
   margin-top: 67px;
+  text-shadow: 3px 3px 3px skyblue;
 }
 
 @keyframes fadeIn {
@@ -127,6 +128,13 @@ ol {
 }
 
 #subtext {
+  font-size: 35px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 2px rgb(179, 179, 232);
+}
+
+#frontsubtext {
   font-size: 35px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
@@ -675,16 +683,16 @@ input {
 
 #flasher {
   position: relative;
+  color: rgb(156, 114, 188);
   display: flex;
   justify-content: end;
   margin: 20px;
-  border: 8px rgb(51, 49, 49) double;
   font-weight: bold;
   font-size: 168px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-shadow: 4px 4px 4px rgb(213, 179, 245);
-  animation: blinker 4s linear infinite;
+  animation: blinker 3s linear infinite;
   z-index: 3;
 }
 
@@ -697,11 +705,19 @@ input {
 #weighttag {
   font-size: 90px;
   text-shadow: 4px 4px 4px rgb(213, 179, 245);
+  color: rgb(75, 71, 71);
+  background-color: rgba(100, 93, 93, 0.3);
+  box-shadow: 3px 3px 3px pink outset;
+  padding: 7px;
 }
 
 #heighttag {
   font-size: 90px;
   text-shadow: 4px 4px 4px rgb(213, 179, 245);
+  color: rgb(59, 43, 43);
+  background-color: rgba(102, 95, 95, 0.2);
+  box-shadow: 3px 3px 3px pink outset;
+  padding: 7px;
 }
 
 #DandDtitle {
@@ -723,4 +739,121 @@ input {
 #explorediv {
   display: flex;
   justify-content: center;
+}
+
+#NewPatient {
+  color: black;
+  text-shadow: 4px 4px 4px rgb(223, 223, 254);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: lightskyblue;
+  border: 4px grey double;
+  box-shadow: 3px 3px 3px whitesmoke inset;
+  padding: 19px;
+  border-radius: 20%;
+  margin-right: 45px;
+  transition: all 500ms;
+}
+
+#NewPatient:hover {
+  background-color: rgb(20, 237, 186);
+  font-size: 88px;
+  font-size-adjust: 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+#Existing {
+  color: black;
+  text-shadow: 4px 4px 4px rgb(180, 180, 241);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: lightskyblue;
+  border: 4px grey double;
+  box-shadow: 3px 3px 3px whitesmoke inset;
+  padding: 19px;
+  border-radius: 20%;
+  transition: all 500ms;
+}
+
+#Existing:hover {
+  color: aliceblue;
+  background-color: rgb(39, 76, 239);
+  font-size: 88px;
+  font-size-adjust: 20px;
+  text-decoration: none;
+}
+
+#FireTitle {
+  color: black;
+  text-shadow: 4px 4px 4px lightskyblue;
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#FireSubTitle {
+  color: black;
+  text-shadow: 4px 4px 4px lightskyblue;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#RegPat {
+  font-weight: bolder;
+  color: blueviolet;
+  text-shadow: 2px 2px 2px black;
+}
+
+#RegPatForm {
+  position: flex;
+  justify-content: center;
+  margin-left: 500px;
+}
+
+#NPButton {
+  border-radius: 10%;
+  background-color: blueviolet;
+  color: azure;
+}
+
+.BGContainer {
+  margin: 0;
+  height: 82vh; /* Full height for the body */
+  width: 100%;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+#CSPic {
+  background-image: url("/assets/CSBG.png"); /* Your background image */
+  background-repeat: repeat; /* Repeat the image horizontally */
+  /* background-size: cover;  */
+  /* Cover the entire viewport */
+  animation: slidey 30s linear infinite; /* Animate background position */
+}
+
+/* Standard keyframes */
+@keyframes slidey {
+  from {
+    background-position: 0% 0%; /* Start position */
+  }
+  to {
+    background-position: 100% 0%; /* End position */
+  }
+}
+
+.Desc {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.673);
+  color: black;
+  text-shadow: 2px 3px 3px rgba(189, 189, 236, 0.9);
+  font-weight: bolder;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 10px;
+  z-index: 1; /* Ensure it's on top of the background */
 }

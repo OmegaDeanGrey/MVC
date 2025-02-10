@@ -52,12 +52,18 @@
                 <li class="navbar-brand">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Audible">Keys</a>
                 </li>
+                <li class="navbar-brand">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Lingual">Lingual</a>
+                </li>
+                 <li class="navbar-brand">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Data">Data</a>
+                </li>
             </ul>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div>
+        <main>
             @RenderBody()
 
         </main>

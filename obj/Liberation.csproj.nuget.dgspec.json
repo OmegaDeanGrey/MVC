@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/deangrey/Desktop/Liberation/Liberation.csproj": {}
+    "/Users/deangrey/Desktop/ToSort/Liberation/Liberation.csproj": {}
   },
   "projects": {
-    "/Users/deangrey/Desktop/Liberation/Liberation.csproj": {
+    "/Users/deangrey/Desktop/ToSort/Liberation/Liberation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/deangrey/Desktop/Liberation/Liberation.csproj",
+        "projectUniqueName": "/Users/deangrey/Desktop/ToSort/Liberation/Liberation.csproj",
         "projectName": "Liberation",
-        "projectPath": "/Users/deangrey/Desktop/Liberation/Liberation.csproj",
+        "projectPath": "/Users/deangrey/Desktop/ToSort/Liberation/Liberation.csproj",
         "packagesPath": "/Users/deangrey/.nuget/packages/",
-        "outputPath": "/Users/deangrey/Desktop/Liberation/obj/",
+        "outputPath": "/Users/deangrey/Desktop/ToSort/Liberation/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/deangrey/.nuget/NuGet/NuGet.Config"
@@ -50,6 +50,10 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.WebSockets": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             },
             "Microsoft.CodeAnalysis.CSharp": {
               "target": "Package",

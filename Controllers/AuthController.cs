@@ -89,7 +89,7 @@ namespace Liberation.Controllers
         }
 
         // GET: Auth/Proof
-           [Authorize]
+        //    [Authorize]
                    public IActionResult Proof()
         {
             return View();
